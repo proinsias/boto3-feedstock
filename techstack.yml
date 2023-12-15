@@ -1,0 +1,73 @@
+repo_name: proinsias/boto3-feedstock
+report_id: 152bb1f26d62a5c47fcb985f74f46e2a
+repo_type: Public
+timestamp: '2023-12-15T02:06:17+00:00'
+requested_by: regro-cf-autotick-bot
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: LICENSE.txt
+  last_updated_by: Travis-CI on github.com/conda-forge/staged-recipes
+  last_updated_on: 2016-11-06 21:01:55.000000000 Z
+- name: Azure Pipelines
+  description: Continuously build, test, and deploy to any platform and cloud
+  website_url: https://azure.microsoft.com/ko-kr/services/devops/pipelines/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source: azure-pipelines.yml
+  last_updated_by: regro-cf-autotick-bot
+  last_updated_on: 2019-01-16 23:50:30.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: regro-cf-autotick-bot
+  last_updated_on: 2019-03-18 21:47:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/automerge.yml"
+  last_updated_by: regro-cf-autotick-bot
+  last_updated_on: 2022-11-02 07:23:07.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: LICENSE.txt
+  last_updated_by: Travis-CI on github.com/conda-forge/staged-recipes
+  last_updated_on: 2016-11-06 21:01:55.000000000 Z
