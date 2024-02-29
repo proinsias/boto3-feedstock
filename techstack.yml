@@ -2,7 +2,7 @@ repo_name: proinsias/boto3-feedstock
 report_id: 152bb1f26d62a5c47fcb985f74f46e2a
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:47:05+00:00'
+timestamp: '2024-02-29T18:42:00+00:00'
 requested_by: regro-cf-autotick-bot
 provider: github
 branch: main
